@@ -1,40 +1,137 @@
-/*--------------------------------------------------------------
+/*----------------------------------------------------------
 Layouts
---------------------------------------------------------------*/
+----------------------------------------------------------*/
 
 
-/*--------------------------------------------------------------
+/*----------------------------------------------------------
 Mobile
---------------------------------------------------------------*/
+----------------------------------------------------------*/
+
+header {
+
+}
 
 body {
     background: #9FC3CB;
 }
 
 .content {
-    padding: 2em;
+    padding: 0px 15px 50px 15px;  
 }
 
+input[type=text] {
+  padding: 6px 10px;
+  margin: 8px 20px;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", sans-serif;
+}
+#form {
+    font-family: "Franklin Gothic Medium", sans-serif;
+    font-size: 1em;
+    padding: 0 .5em;
+}
+#name {
+    width: 50%;
+}
+
+#email {
+    width: 50%;
+}
+
+#comment {
+    width: 90%;
+}
+input[type=submit], input[type=reset]{
+    padding: 8px 20px;
+    margin: 10px 10px;
+}
+input[type=submit] {
+    float: left;
+}
+input[type=reset] {
+    float: right;
+}
 footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #544C3C;
-  color: white;
-  text-align: center;
 }
 
-/*--------------------------------------------------------------
+/*----------------------------------------------------------
 Tablet
---------------------------------------------------------------*/
+----------------------------------------------------------*/
 @media (min-width: 400px) {
+    #form {
+        font-family: "Franklin Gothic Medium", sans-serif;
+        font-size: 1.7em;
+        padding: 0 .5em;
+    }
+    input[type=text] {
+        padding: 6px 10px;
+        margin: 8px 20px;
+        box-sizing: border-box;
+        }
+    
+    #name {
+    width: 40%;
+    }
 
+    #email {
+        width: 40%;
+    }
+
+    #comment {
+        width: 95%;
+    }
+    input[type=submit], input[type=reset]{
+    padding: 8px 20px;
+    margin: 10px 10px;
+}
+    input[type=submit] {
+        float: left;
+    }
+    input[type=reset] {
+        float: right;
+    }
 }
 
-/*--------------------------------------------------------------
+/*----------------------------------------------------------
 Desktop
---------------------------------------------------------------*/
+----------------------------------------------------------*/
 @media (min-width: 800px) {
+    #form {
+    font-family: "Franklin Gothic Medium", sans-serif;
+    font-size: 1.8em;
+    padding: 0 8px;
+}
+    input[type=text] {
+        padding: 15px 10px;
+        margin: 8px 20px;
+        box-sizing: border-box;
+        }
     
+    #name {
+    width: 40%;
+    }
+
+    #email {
+        width: 40%;
+    }
+
+    #comment {
+        width: 95%;
+    }
+    input[type=submit], input[type=reset]{
+    padding: 8px 20px;
+    margin: 10px 10px;
+    }
+    input[type=submit] {
+        float: left;
+    }
+    input[type=reset] {
+        float: right;
+    }
+
 }

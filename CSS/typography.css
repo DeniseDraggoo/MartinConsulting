@@ -1,34 +1,84 @@
-/*--------------------------------------------------------------
+/*----------------------------------------------------------
 Typography
---------------------------------------------------------------*/
+----------------------------------------------------------*/
 
-/*--------------------------------------------------------------
+/*----------------------------------------------------------
 Mobile
---------------------------------------------------------------*/
+----------------------------------------------------------*/
 
-h1 {
+h1 a {
   font-family: "Arial" sans-serif;
-  font-size: 20px;
-  text-align: left;
+  font-size: 25px;
   color: #544C3C;
   text-decoration: none;
+  padding-left: 10px;
+  float: left;
 }
+
 h1:hover {
     color: darkgreen;
 }
 
-/*--------------------------------------------------------------
-Tablet
---------------------------------------------------------------*/
-@media screen and (min-width: 400px) {
-    
+h2 {
+   color: #544C3C;
+    font-size: 20px;
+    padding-left: 10px;
+}
+p {
+    font-size: .75em;
+    text-align: justify;
 }
 
-/*--------------------------------------------------------------
+.contactus-menu {
+    float: right;
+    text-align: right;
+    justify-content: center;
+    color: white;
+    background-color: #2C8BB9;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 15px;
+}
+
+footer p {
+    font-size: .5em;
+    text-align: center;
+    color: white;
+}
+
+
+/*----------------------------------------------------------
+Tablet
+----------------------------------------------------------*/
+@media screen and (min-width: 400px) {
+    p {
+        font-size: 1.3em;
+        text-align: justify;
+    }
+   footer p {
+       font-size: .75em;
+       text-align: center;
+       color: white;
+    } 
+}
+
+/*----------------------------------------------------------
 Desktop
---------------------------------------------------------------*/
+----------------------------------------------------------*/
 @media screen and (min-width: 800px) {
-   
+    
+    p {
+        font-size: 1.5em;
+        text-align: justify;
+    }
+   footer p {
+       font-size: 1em;
+       text-align: center;
+       color: white;
+}
     }
 }
 
