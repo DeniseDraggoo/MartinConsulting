@@ -6,9 +6,11 @@ Header styles minus menu
 Mobile
 ---------------------------------------------------------*/
 
-
-
-
+header {
+    background-color: black;
+    padding-top: 1px;
+    height: 150px
+}
 
 
 
@@ -16,16 +18,7 @@ Mobile
 /*----------------------------------------------------------
 Tablets
 ----------------------------------------------------------*/
-@media (min-width: 400px) {
-.subheader {
-    background-color: #9FC3CB;
-    background-image: url(../images/From_TEDX_screenshot.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 225px;
-    margin-top: 50px;
-    }
-}
+
 
 
     
@@ -33,14 +26,5 @@ Tablets
 /*----------------------------------------------------------
 Desktops
 ----------------------------------------------------------*/
-@media (min-width: 800px) {
-.subheader {
-    background-color: #9FC3CB;
-    background-image: url(../images/From_TEDX_screenshot.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 225px;
-    margin-top: 50px;
-    }
-}
+
 

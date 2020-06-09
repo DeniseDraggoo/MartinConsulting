@@ -7,42 +7,55 @@ Mobile
 ----------------------------------------------------------*/
 
 h1 a {
-  font-family: "Arial" sans-serif;
-  font-size: 25px;
-  color: #544C3C;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  color: #DBB23F;
   text-decoration: none;
   padding-left: 10px;
   float: left;
+  padding-bottom: 20px;
 }
 
-h1:hover {
+h1 a:hover {
     color: darkgreen;
 }
 
 h2 {
-   color: #544C3C;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #DBB23F;
     font-size: 20px;
     padding-left: 10px;
+    padding-top: 20px
+}
+h3 {
+    font-family: "Franklin Gothic Medium", sans-serif;
+    font-size: 1em
 }
 p {
     font-size: .75em;
     text-align: justify;
 }
 
-.contactus-menu {
+.contactus-menu a {
     float: right;
     text-align: right;
     justify-content: center;
     color: white;
     background-color: #2C8BB9;
+    border-radius: 50%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    padding: 5px 10px;
+    padding: 10px 10px;
     margin: 15px;
+    font-family: "Franklin Gothic Medium", sans-serif;
 }
-
+#form {
+    font-family: "Franklin Gothic Medium", sans-serif;
+    font-size: 1em;
+    padding: 0 .5em;
+}
 footer p {
     font-size: .5em;
     text-align: center;
@@ -54,9 +67,18 @@ footer p {
 Tablet
 ----------------------------------------------------------*/
 @media screen and (min-width: 400px) {
+    h3 {
+        font-size: 1.7em
+    }
+
     p {
         font-size: 1.3em;
         text-align: justify;
+    }
+    #form {
+        font-family: "Franklin Gothic Medium", sans-serif;
+        font-size: 1.7em;
+        padding: 0 .5em;
     }
    footer p {
        font-size: .75em;
@@ -69,10 +91,17 @@ Tablet
 Desktop
 ----------------------------------------------------------*/
 @media screen and (min-width: 800px) {
-    
+    h3 {
+        font-size: 2em
+    }
     p {
         font-size: 1.5em;
         text-align: justify;
+    }
+    #form {
+        font-family: "Franklin Gothic Medium", sans-serif;
+        font-size: 1.8em;
+        padding: 0 8px;
     }
    footer p {
        font-size: 1em;
