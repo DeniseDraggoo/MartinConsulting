@@ -6,7 +6,7 @@ Typography
 Mobile
 ----------------------------------------------------------*/
 
-h1 {
+h1 a, h1 {
   position: absolute;
   left: 10px;
   font-family: 'Josefin Sans', sans-serif;
