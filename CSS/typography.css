@@ -6,14 +6,14 @@ Typography
 Mobile
 ----------------------------------------------------------*/
 
-h1 a {
+h1 {
+  position: absolute;
+  left: 10px;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 30px;
   color: #DBB23F;
   text-decoration: none;
   padding-left: 10px;
-  float: left;
-  padding-bottom: 20px;
 }
 
 h1 a:hover {
@@ -21,6 +21,8 @@ h1 a:hover {
 }
 
 h2 {
+    position: absolute;
+    left: 10px;
     font-family: 'Josefin Sans', sans-serif;
     color: #DBB23F;
     font-size: 20px;
@@ -36,7 +38,7 @@ p {
     text-align: justify;
 }
 
-.contactus-menu a {
+.contactus-menu {
     float: right;
     text-align: right;
     justify-content: center;
@@ -67,6 +69,47 @@ footer p {
 Tablet
 ----------------------------------------------------------*/
 @media screen and (min-width: 400px) {
+    h1 {
+        position: absolute;
+        left: 10px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 45px;
+        color: #DBB23F;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+
+    h1 a:hover {
+        color: darkgreen;
+    }
+
+    h2 {
+        position: absolute;
+        left: 10px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #DBB23F;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    
+    .contactus-menu {
+    float: right;
+    text-align: right;
+    justify-content: center;
+    color: white;
+    background-color: #2C8BB9;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px 10px;
+    margin: 15px;
+    font-family: "Franklin Gothic Medium", sans-serif;
+}
+    
     h3 {
         font-size: 1.7em
     }
@@ -91,6 +134,48 @@ Tablet
 Desktop
 ----------------------------------------------------------*/
 @media screen and (min-width: 800px) {
+    h1 {
+        position: absolute;
+        left: 10px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 65px;
+        color: #DBB23F;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }   
+
+    h1 a:hover {
+        color: darkgreen;
+    }
+
+    h2 {
+        position: absolute;
+        left: 10px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #DBB23F;
+        font-size: 45px;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    
+    .contactus-menu {
+        position: absolute;
+        float: right;
+        text-align: right;
+        justify-content: center;
+        color: white;
+        background-color: #2C8BB9;
+        border-radius: 50%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 35px;
+        padding: 10px 10px;
+        margin: 15px;
+        font-family: "Franklin Gothic Medium", sans-serif;
+    }
+    
     h3 {
         font-size: 2em
     }

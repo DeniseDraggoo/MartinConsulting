@@ -1,0 +1,106 @@
+/*----------------------------------------------------------
+Form
+----------------------------------------------------------*/
+
+
+/*----------------------------------------------------------
+Mobile
+----------------------------------------------------------*/
+
+
+input[type=text] {
+  padding: 4px 8px;
+  margin: 4px 10px;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", sans-serif;
+}
+
+#name {
+    width: 50%;
+}
+
+#email {
+    width: 50%;
+}
+
+#comment {
+    width: 90%;
+}
+input[type=submit], input[type=reset]{
+    padding: 8px 20px;
+    margin: 10px 10px;
+}
+input[type=submit] {
+    float: left;
+}
+input[type=reset] {
+    float: right;
+}
+
+
+/*----------------------------------------------------------
+Tablet
+----------------------------------------------------------*/
+@media (min-width: 400px) {
+    
+    input[type=text] {
+        padding: 6px 10px;
+        margin: 8px 20px;
+        box-sizing: border-box;
+        }
+    
+    #name {
+    width: 40%;
+    }
+
+    #email {
+        width: 40%;
+    }
+
+    #comment {
+        width: 95%;
+    }
+    input[type=submit], input[type=reset]{
+    padding: 8px 20px;
+    margin: 10px 10px;
+}
+    input[type=submit] {
+        float: left;
+    }
+    input[type=reset] {
+        float: right;
+    }
+}
+
+/*----------------------------------------------------------
+Desktop
+----------------------------------------------------------*/
+@media (min-width: 800px) {
+    input[type=text] {
+        padding: 15px 10px;
+        margin: 8px 20px;
+        box-sizing: border-box;
+        }
+    #name {
+        width: 40%;
+    }
+
+    #email {
+        width: 40%;
+    }
+
+    #comment {
+        width: 95%;
+    }
+    input[type=submit], input[type=reset]{
+        padding: 8px 20px;
+        margin: 10px 10px;
+    }
+    input[type=submit] {
+        float: left;
+    }
+    input[type=reset] {
+        float: right;
+    }
+
+}
