@@ -30,10 +30,10 @@ h3 {
     font-family: "Franklin Gothic Medium", sans-serif;
     font-size: 1em
 }
-p {
-    font-size: .50em;
+body p {
+    font-size: .75em;
     max-width: 75%;
-    text-align: left;
+    text-align: justify;
     margin-left: auto;
     margin-right: auto;
 }
@@ -111,13 +111,14 @@ Tablet
         font-size: 1.7em
     }
 
-    p {
-        font-size: 1.3em;
-        max-width: 75%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align; justify;
-    }
+body p {
+    font-size: 1em;
+    max-width: 75%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
     #form {
         font-family: "Franklin Gothic Medium", sans-serif;
         font-size: 1.7em;
@@ -175,10 +176,15 @@ Desktop
     h3 {
         font-size: 2em
     }
-    p {
-        font-size: 1.3em;
-        text-align: center;
-    }
+
+body p {
+    font-size: 1em;
+    max-width: 50%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
     #form {
         font-family: "Franklin Gothic Medium", sans-serif;
         font-size: 1.8em;
