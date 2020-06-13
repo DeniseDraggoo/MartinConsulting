@@ -31,8 +31,11 @@ h3 {
     font-size: 1em
 }
 p {
-    font-size: .75em;
-    text-align: justify;
+    font-size: .50em;
+    max-width: 75%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contactus-menu {
@@ -110,7 +113,10 @@ Tablet
 
     p {
         font-size: 1.3em;
-        text-align: justify;
+        max-width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align; justify;
     }
     #form {
         font-family: "Franklin Gothic Medium", sans-serif;
@@ -171,7 +177,7 @@ Desktop
     }
     p {
         font-size: 1.3em;
-        text-align: justify;
+        text-align: center;
     }
     #form {
         font-family: "Franklin Gothic Medium", sans-serif;
