@@ -20,7 +20,7 @@ Tablets
     header {
         background-color: black;
         padding-top: 1px;
-        height: 200px;
+        height: 250px;
     }
 }
     
@@ -32,6 +32,6 @@ Desktops
     header {
         background-color: black;
         padding-top: 1px;
-        height: 250px;
+        height: 350px;
     }
 }
