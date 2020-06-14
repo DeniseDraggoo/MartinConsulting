@@ -21,12 +21,13 @@ Images - reset
     border-radius: 5px;
 }
 
+
 .video-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
+    overflow: hidden;
+    padding-bottom: 56.25%;
     margin-top: 25px;
-    position:relative;
-    height:0;
+    position: relative;
+    height: 0;
 }
 .video-responsive iframe{
     left:0;
