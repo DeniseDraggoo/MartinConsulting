@@ -25,17 +25,18 @@ h2 {
     color: #DBB23F;
     font-size: 20px;
     padding-left: 10px;
+    margin-top: -5px;
 }
 h3 {
     font-family: "Franklin Gothic Medium", sans-serif;
-    font-size: 1em
+    font-size: 1.2em
 }
-body p {
-    font-size: .75em;
-    max-width: 75%;
+
+.quotes {
+    font-size: .9em;
     text-align: justify;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;  
 }
 
 .contactus-menu {
@@ -111,12 +112,12 @@ Tablet
         font-size: 1.7em
     }
 
-body p {
+.quotes {
     font-size: 1em;
-    max-width: 75%;
+    max-width: 65%;
     text-align: justify;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;  
 }
     
     #form {
@@ -172,18 +173,7 @@ Desktop
         font-family: "Franklin Gothic Medium", sans-serif;
     }
  }
-    
-    h3 {
-        font-size: 2em
-    }
 
-body p {
-    font-size: 1em;
-    max-width: 50%;
-    text-align: justify;
-    margin-left: auto;
-    margin-right: auto;
-}
 
     #form {
         font-family: "Franklin Gothic Medium", sans-serif;

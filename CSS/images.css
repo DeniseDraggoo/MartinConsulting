@@ -24,6 +24,7 @@ Images - reset
 .video-responsive{
     overflow:hidden;
     padding-bottom:56.25%;
+    margin-top: 25px;
     position:relative;
     height:0;
 }
